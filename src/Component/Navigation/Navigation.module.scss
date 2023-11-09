@@ -1,0 +1,21 @@
+.Navigation {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.NavLink{
+  display: flex;
+    font-family: Montserrat, sans-serif;
+    font-size: 30px;
+    line-height: 1.2;
+    font-weight: 600;
+    color: rgb(123, 158, 217);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1) 0s;
+    text-shadow: rgb(29, 30, 38) 2px 2px 5px;
+    @media (max-width: 767px) {
+    font-size: 25px;
+  }
+}

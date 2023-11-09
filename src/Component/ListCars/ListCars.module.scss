@@ -1,0 +1,19 @@
+.containerCardList {
+  padding: 30px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 3.43693px 3.43693px 0px;
+  grid-row-gap: 50px;
+  display: grid;
+  @media (min-width: 768px) {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 29px;
+    grid-row-gap: 50px;
+  }
+
+  @media (min-width: 1440px) {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 29px;
+    grid-row-gap: 50px;
+  }
+}

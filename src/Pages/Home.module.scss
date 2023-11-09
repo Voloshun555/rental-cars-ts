@@ -1,0 +1,35 @@
+.titleHome {
+  display: flex;
+  justify-content: center;
+
+  font-family: Montserrat, sans-serif;
+  font-size: 30px;
+  line-height: 1.2;
+  font-weight: 600;
+  color: rgb(229, 85, 85);
+  border: none;
+  border-radius: 5px;
+  text-shadow: rgb(29, 30, 38) -1px 1px 1px;
+}
+.containerHome {
+  margin-top: 40px;
+}
+.imgHome {
+  margin-right: auto;
+  margin-left: auto;
+}
+.rentaKars {
+  margin-top: 50px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 700px;
+
+  font-family: Montserrat, sans-serif;
+  font-size: 20px;
+  line-height: 1.2;
+  font-weight: 600;
+  color: rgb(123, 158, 217);
+  border: none;
+  border-radius: 5px;
+  text-shadow: rgb(29, 30, 38) -1px 1px 1px;
+}

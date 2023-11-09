@@ -1,0 +1,73 @@
+html {
+  box-sizing: border-box;
+  width: 100%;
+  min-width: 340px;
+  height: 100%;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: linear-gradient(
+      249deg,
+      #65005e 3%,
+      #3c84ce 38%,
+      #30eee2 68%,
+      #9d8787 98%
+    )
+    0 0/400% 400% fixed;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+  color: inherit;
+
+  cursor: pointer;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+}
+
+button {
+  font-family: inherit;
+
+  border: none;
+
+  white-space: nowrap;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
