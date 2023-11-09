@@ -40,7 +40,7 @@ export function Card({
   };
 
   const favoriteList = useAppSelector((state) => state.favorite.favoriteList);
-  const isFavorite = favoriteList.includes(id);
+ const isFavorite = favoriteList ? favoriteList.includes(id) : false;
   const dispatch = useAppDispatch();
 
 
