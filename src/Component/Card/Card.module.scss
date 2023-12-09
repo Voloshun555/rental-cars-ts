@@ -12,7 +12,7 @@
   position: relative;
 }
 .title {
-  color: #121417;
+  color: #9dc0f5;
   font-family: Manrope;
   font-size: 16px;
   font-style: normal;
@@ -21,7 +21,7 @@
 }
 
 .model {
-  color: #3470ff;
+  color: #5484f5;
   font-family: Manrope;
   font-size: 16px;
   font-style: normal;
@@ -30,21 +30,23 @@
 }
 
 .infoCar {
-  color: rgba(18, 20, 23, 0.5);
+  color: rgba(246, 248, 250, 0.991);
   font-family: Manrope;
-  font-size: 12px;
+  font-size: 10px;
   font-style: normal;
   font-weight: 400;
   line-height: 18px; /* 150% */
   border-right: 1px solid rgba(18, 20, 23, 0.2);
   padding-right: 4px;
   text-shadow: 0 0 1px #858994;
+  &:not(:first-child){
+    padding-left: 4px;
+  }
 }
 
 .containerInfoCar {
   display: flex;
   flex-wrap: wrap;
-  gap: 4px;
 }
 
 .containerTotleCar {
